@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehak's Portfolio</title>
+    <link rel="stylesheet" href="style_portfolio.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        rel="stylesheet"
+    />
+    
+</head>
+<body>
+
+      <!--Landing Section-->
+      <section id="landing">
+        <h1>Mehak Garg</h1>
+        <p>Emerging Creative Technologist</p>
+        <a href="#about" class="scroll-btn">Explore</a>
+    </section>
+
+
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href= "#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--About Section-->
+    <section id="about">
+        <h2>About Me</h2>
+        <button onclick="goHome()" class="home-btn">Home</button>
+        <script>function goHome() {
+            window.location.href = "index_portfolio.html"; 
+        }
+        </script>
+        <p>Hi! I'm Mehak I'm a aspiring creative technologist who loves to design through code. I love using tech to solve different problems and am always on the lookout to constantly explore and learn new things! Additional to code I love singing/songwriting and listening to different kinds of music. For me design and music are both forms of self-expression I hope you feel the same as you look through my works!</p>
+    </section>
+
+    <div class="star-line"></div>
+   
+    <!--Projects Section-->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="gallery">
+        <!-- Project 1 -->
+        <div class="project-item">
+            <a href="project1.html">
+                <i class="fas fa-laptop-code"></i> 
+                <p>Project 1</p>
+            </a>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-item">
+            <a href="project2.html">
+                <i class="fas fa-code"></i>
+                <p>Project 2</p>
+            </a>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="project-item">
+            <a href="project3.html">
+                <i class="fas fa-database"></i>
+                <p>Project 3</p>
+            </a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-item">
+            <a href="project4.html">
+                <i class="fas fa-mobile-alt"></i>
+                <p>Project 4</p>
+            </a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-item">
+            <a href="project5.html">
+                <i class="fas fa-paint-brush"></i>
+                <p>Project 5</p>
+            </a>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-item">
+            <a href="project6.html">
+                <i class="fas fa-robot"></i>
+                <p>Project 6</p>
+            </a>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-item">
+            <a href="project7.html">
+                <i class="fas fa-network-wired"></i>
+                <p>Project 7</p>
+            </a>
+        </div>
+
+        <!-- Special Project -->
+        <div class="project-item">
+            <a href="project8.html">
+                <i class="fas fa-star"></i>
+                <p>Special Project</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <!--Contact Section-->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email:mehak.garg@bopen.in</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank"</a>My LinkedIn</p>
+    </section>
+
+    <footer>
+        <p> 2024 Mehak Garg. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
